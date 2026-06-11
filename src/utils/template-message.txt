@@ -1,0 +1,21 @@
+Good [morning, afternoon, or evening], Mr. [customize],
+
+Find below the transportation booking receipt for a Goldenbird unit under your name, with the following details:
+
+Booking Code: [customize]
+
+Booking Date: [customize]
+Car Type: [ customize]
+License Plate: [customize]
+Driver's Name: [ customize]
+Driver's Phone Number: +62 [customize]
+
+Pickup Address: [customize]
+Pickup Time: [ customize]
+Destination Address: [customize]
+Payment Type: Paid in full by [customize] at the Goldenbird counter in the amount of IDR [customize]
+
+Thank you for choosing Goldenbird’s service. We are happy to serve you, and feel free to contact us again for your next transportation booking.
+
+Best regards,
+~ [customize]
