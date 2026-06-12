@@ -1,9 +1,11 @@
 import { useDisplayInputField } from "../../hooks/UseDisplayInputField";
 import BannerReceipt from "../../assets/banner-receipt.jpeg";
 import SignReceipt from "../../assets/sign-receipt.jpeg";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { Button } from "../../components/button";
 
 export const ReceiptPage = () => {
+  const navigate = useNavigate();
   const {
     displayCustomerName,
     displayAmountWords,
@@ -14,19 +16,24 @@ export const ReceiptPage = () => {
     displaySignTypeDate,
   } = useDisplayInputField();
   return (
-    <div className="min-h-screen font-[Times_New_Roman] bg-gray-50">
-      <nav className="w-screen font-poppins text-white bg-gray-800 fixed top-0">
-        <ul className="py-4 px-20 flex justify-between">
+    <div className="min-h-screen font-[Times_New_Roman] bg-gray-50 relative">
+      <nav className="font-poppins bg-gray-900 sticky top-0">
+        <ul className="py-4 px-20 flex justify-between items-center">
           <li>
-            <Link to={"/"}>Back</Link>
+            <Button onClick={() => navigate(-1)} className="min-w-40">
+              Back or Edit
+            </Button>
+          </li>
+          <li className="text-xl tracking-widest text-gray-50">
+            Receipt Preview
           </li>
           <li>
-            <Link to={"/"}>Download as PDF</Link>
+            <Button className="min-w-40">Download as PDF</Button>
           </li>
         </ul>
       </nav>
 
-      <div className="w-w-pdf h-h-pdf mt-16 mb-3 mx-auto border border-yellow-600 text-gray-900 bg-white">
+      <div className="w-w-pdf h-h-pdf my-4 mx-auto border border-yellow-600 text-gray-900 bg-white">
         <header className="mb-12">
           <img src={BannerReceipt} alt="banner-receipt" className="w-full" />
           <h1 className="text-2xl mt-10 px-16 font-semibold">
