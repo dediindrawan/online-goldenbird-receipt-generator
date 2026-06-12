@@ -31,7 +31,7 @@ export const InputFormGroup = () => {
       <InputLayout
         id="idr-amount-word-input"
         labelText="IDR Amount in Words:"
-        placeholder="Eg: Five hundred thousand"
+        placeholder="Eg: Five Hundred Thousand"
         value={amountWords}
         onChange={(e) => inputAmountWordsHandleChange(e)}
       />

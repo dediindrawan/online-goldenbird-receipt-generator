@@ -50,15 +50,15 @@ export const ReceiptPage = () => {
           <article>
             <span className="w-full flex gap-4">
               <p className="w-40 font-semibold">Customer Name</p>
-              <p>: {displayCustomerName}</p>
+              <p className="capitalize">: {displayCustomerName}</p>
             </span>
             <span className="w-full flex gap-4">
               <p className="w-40 font-semibold">Amount</p>
-              <p>: {displayAmountWords}</p>
+              <p className="capitalize">: {displayAmountWords}</p>
             </span>
             <span className="w-full mt-8 flex gap-4">
               <p className="w-40 font-semibold">Booking Code</p>
-              <p>: {displayBookingCode}</p>
+              <p className="uppercase">: {displayBookingCode}</p>
             </span>
             <span className="w-full flex gap-4">
               <p className="w-40 font-semibold">Periode of Car Usage</p>
