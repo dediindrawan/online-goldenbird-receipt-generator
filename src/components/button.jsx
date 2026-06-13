@@ -13,6 +13,7 @@ export const Button = ({
     danger:
       "border-pink-500 text-white bg-pink-500 hover:text-pink-500 hover:bg-white",
     outline: "border-yellow-600 hover:text-white hover:bg-yellow-600",
+    tersier: "border-gray-300 text-gray-600 bg-gray-300 hover:none",
   };
 
   return (

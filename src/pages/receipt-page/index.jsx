@@ -16,8 +16,8 @@ export const ReceiptPage = () => {
     displaySignTypeDate,
   } = useDisplayInputField();
   return (
-    <div className="min-h-screen font-[Times_New_Roman] bg-gray-50 relative">
-      <nav className="font-poppins bg-gray-900 sticky top-0">
+    <div className="font-times-new-roman">
+      <nav className="font-poppins bg-gray-800">
         <ul className="py-4 px-20 flex justify-between items-center">
           <li>
             <Button onClick={() => navigate(-1)} className="min-w-40">

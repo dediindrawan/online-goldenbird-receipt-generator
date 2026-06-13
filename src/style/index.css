@@ -4,6 +4,7 @@
 
 @theme {
   --font-poppins: "Poppins", sans-serif;
+  --font-times-new-roman: "Times New Roman", serif;
   --spacing-w-pdf: 794px;
   --spacing-h-pdf: 1123px;
 }
