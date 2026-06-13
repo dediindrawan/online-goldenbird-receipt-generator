@@ -8,7 +8,7 @@ export const FooterRootLayout = () => {
         rights reserved.
         <br />
         Made with coffee by{" "}
-        <Link to="https:dediindrawan.vercel.app" target="_blank">
+        <Link to="https://dediindrawan.vercel.app" target="_blank">
           Dedi Indrawan
         </Link>
       </section>
