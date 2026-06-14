@@ -1,6 +1,6 @@
 import TemplateMessage from "../utils/template-message.txt?raw";
 import { Button } from "../components/button";
-import { useTemplateMessage } from "../hooks/UseTemplateMessage";
+import { useTemplateMessage } from "../hooks/use-template-message";
 import { Clipboard, ClipboardCheck } from "lucide-react";
 
 export const TemplateMessageLayout = () => {

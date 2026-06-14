@@ -1,21 +1,21 @@
-Good [morning, afternoon, or evening], Mr. [customize],
+Good evening, Mr. John Doe,
 
 Find below the transportation booking receipt for a Goldenbird unit under your name, with the following details:
 
-Booking Code: [customize]
+Booking Code: SJ12345678
 
-Booking Date: [customize]
-Car Type: [customize]
-License Plate: [customize]
-Driver's Name: [customize]
-Driver's Phone Number: +62 [customize]
+Booking Date: June 18, 2026
+Car Type: BYD Denza D9
+License Plate: B 1234 ABC
+Driver's Name: Alex Morgan
+Driver's Phone Number: +62 812-3456-7890
 
-Pickup Address: [customize]
-Pickup Time: [customize]
-Destination Address: [customize]
-Payment Type: Paid in full by [Cash, Credit Card, Bank Transfer] at the Goldenbird counter in the amount of IDR. [customize]
+Pickup Address: Manchester Street CR7 Block C7
+Pickup Time: 09.00 AM
+Destination Address: International London Airport
+Payment Type: Paid in full by Credit Card at the Goldenbird counter in the amount of IDR. 870.000
 
 Thank you for choosing Goldenbird’s service. We are happy to serve you, and feel free to contact us again for your next transportation booking.
 
 Best regards,
-~ [Your Name]
+~ Jean Doe
