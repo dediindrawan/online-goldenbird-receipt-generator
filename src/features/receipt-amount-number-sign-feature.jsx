@@ -6,16 +6,17 @@ export const ReceiptAmountNumberSignFeature = ({
 }) => {
   return (
     <div className="mt-16 flex justify-between items-center">
-      <span className="py-1 border border-gray-500">
-        <p className="w-max px-2 font-semibold bg-yellow-200">
+      <div className="h-max py-1 border border-[#111827]">
+        <p className="w-max px-2 pb-4 font-semibold bg-[#FEF08A]">
           Amount IDR. <span> {contentPrice}</span>
         </p>
-      </span>
-      <span className="font-semibold flex flex-col items-center gap-6">
+      </div>
+
+      <div className="font-semibold flex flex-col items-center gap-5">
         <p>Jakarta, {contentDate}</p>
-        <img src={StampReceipt} alt="Stamp Receipt" className="w-32" />
+        <img src={StampReceipt} alt="Stamp Receipt" className="w-32 mt-4" />
         <p>Golden Bird Jakarta</p>
-      </span>
+      </div>
     </div>
   );
 };

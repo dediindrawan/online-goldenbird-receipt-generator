@@ -11,7 +11,6 @@ export const ReceiptNavigationLayout = ({ receiptRef }) => {
     useTemplateMessage();
 
   const downloadPDF = async () => {
-    console.log("clicked");
     const element = receiptRef.current;
 
     const canvas = await html2canvas(element, {

@@ -12,7 +12,7 @@ export const ReceiptPage = () => {
 
       <div
         ref={receiptRef}
-        className="w-w-pdf h-h-pdf my-4 mx-auto border border-yellow-600 text-gray-900 bg-white"
+        className="w-w-pdf h-h-pdf my-4 mx-auto border border-[#D08700] text-[#111827] bg-[#ffffff]"
       >
         <ReceiptBannerLayout />
 

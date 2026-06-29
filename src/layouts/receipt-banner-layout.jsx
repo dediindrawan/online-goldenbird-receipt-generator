@@ -2,7 +2,7 @@ import BannerReceipt from "../assets/banner-receipt.jpeg";
 
 export const ReceiptBannerLayout = () => {
   return (
-    <header className="mb-12">
+    <header className="mb-10">
       <img src={BannerReceipt} alt="banner-receipt" className="w-full" />
       <h1 className="text-2xl mt-10 px-16 font-semibold">
         PT. PUSAKA PRIMA TRANSPORT
