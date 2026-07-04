@@ -1,6 +1,6 @@
 import { InputLayout } from "../../layouts/input-layout";
 import { TextareaLayout } from "../../layouts/textarea-layout";
-import { useInputFiled } from "../../hooks/use-input-field";
+import { useInputField } from "../../hooks/use-input-field";
 
 export const InputFormGroup = () => {
   const {
@@ -16,12 +16,13 @@ export const InputFormGroup = () => {
     inputPeriodeUsageHandleChange,
     inputNoteExplanationHandleChange,
     inputAmountNumberHandleChange,
-  } = useInputFiled();
+  } = useInputField();
 
   return (
-    <form action="">
-      <div className="mb-4 flex flex-wrap grow gap-4">
+    <form>
+      <div className="mb-4 w-full flex flex-wrap grow gap-4">
         <InputLayout
+          className="capitalize"
           id="customer-name-input"
           labelText="Customer Name:"
           placeholder="Eg: Mr. John Doe"
@@ -32,6 +33,7 @@ export const InputFormGroup = () => {
           onChange={(e) => inputCustomerNameHandleChange(e)}
         />
         <InputLayout
+          className="uppercase"
           id="booking-code-input"
           labelText="Booking Code or Order Number:"
           placeholder="Eg: HO12345678"
@@ -52,6 +54,7 @@ export const InputFormGroup = () => {
           onChange={(e) => inputPeriodeUsageHandleChange(e)}
         />
         <InputLayout
+          className="capitalize"
           id="idr-amount-word-input"
           labelText="IDR Amount in Words:"
           placeholder="Eg: Five Hundred Thousand"

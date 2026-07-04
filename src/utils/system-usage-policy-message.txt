@@ -1,0 +1,76 @@
+KEBIJAKAN PENGGUNAAN SISTEM (SOP INTERNAL KETAT)
+
+Tanggal Berlaku: [Tanggal]
+
+Sistem ini hanya diperuntukkan bagi personel internal yang berwenang. Setiap akses dan penggunaan sistem ini dianggap sebagai persetujuan penuh untuk mematuhi seluruh ketentuan di bawah ini tanpa pengecualian.
+
+Penggunaan tanpa izin secara tegas dilarang.
+
+1. AKSES HANYA UNTUK YANG BERWENANG
+Akses sistem hanya diperbolehkan untuk personel yang telah diberi otorisasi. Setiap bentuk akses tanpa izin, pembagian akun, atau pemberian akses kepada pihak lain merupakan pelanggaran serius dan dapat mengakibatkan pencabutan akses serta tindakan disipliner.
+
+2. BATASAN PENGGUNAAN SISTEM
+Sistem hanya boleh digunakan untuk kepentingan operasional resmi, yaitu:
+
+Penerbitan bukti pemesanan transportasi
+Pengelolaan data pemesanan
+Pembaruan informasi pelanggan dan perjalanan yang telah diverifikasi
+
+Penggunaan untuk kepentingan pribadi, eksperimen, atau di luar operasional kerja dilarang keras.
+
+3. AKURASI DATA & TANGGUNG JAWAB
+Seluruh data yang dimasukkan ke dalam sistem wajib akurat, lengkap, dan telah diverifikasi.
+
+Pengguna bertanggung jawab penuh atas:
+
+Kesalahan data pemesanan
+Kesalahan penerbitan bukti pemesanan
+Dampak operasional akibat kesalahan input
+
+4. STATUS DOKUMEN RESMI
+Seluruh bukti pemesanan yang dihasilkan sistem merupakan dokumen resmi perusahaan.
+
+Setiap perubahan, koreksi, atau penerbitan ulang wajib mengikuti prosedur eskalasi dan validasi internal yang berlaku. Modifikasi tanpa izin dilarang keras.
+
+5. KERAHASIAAN
+Seluruh data sistem, termasuk data pelanggan, detail pemesanan, dan catatan operasional bersifat rahasia.
+
+Penyebaran, penyalinan, atau pembagian data kepada pihak yang tidak berwenang dilarang keras dan dapat dikenakan tindakan disipliner hingga hukum.
+
+6. INTEGRITAS & KEAMANAN SISTEM
+Pengguna dilarang keras untuk:
+
+Mengubah sistem atau data di luar prosedur yang diizinkan
+Mencoba melewati sistem keamanan
+Menyisipkan script, otomatisasi, atau alat eksternal tanpa izin
+Mengeksploitasi celah keamanan sistem
+
+Setiap percobaan akan dianggap pelanggaran berat.
+
+7. AKUNTABILITAS & LOG AUDIT
+Seluruh aktivitas dalam sistem dicatat dan dipantau.
+
+Setiap pengguna bertanggung jawab penuh atas seluruh aktivitas yang dilakukan melalui akunnya, termasuk akibat kelalaian dalam menjaga keamanan akun.
+
+8. PELAPORAN KEBOCORAN KEAMANAN
+Setiap dugaan pelanggaran keamanan, akses tidak sah, atau anomali sistem wajib segera dilaporkan kepada administrator sistem atau tim IT.
+
+Kelalaian dalam pelaporan dapat mengakibatkan tanggung jawab bersama.
+
+9. KONSEKUENSI PELANGGARAN
+Pelanggaran terhadap kebijakan ini dapat mengakibatkan:
+
+Penangguhan atau pencabutan akses sistem secara langsung
+Tindakan disipliner internal hingga pemutusan hubungan kerja
+Tindakan hukum jika diperlukan
+Tanggung jawab finansial atas kerugian yang ditimbulkan
+
+10. PENEGAKAN KEBIJAKAN
+Kebijakan ini diberlakukan secara ketat tanpa pengecualian. Ketidaktahuan terhadap kebijakan tidak membebaskan pengguna dari tanggung jawab.
+
+11. PEMBARUAN KEBIJAKAN
+Kebijakan ini dapat diperbarui sewaktu-waktu tanpa pemberitahuan sebelumnya. Penggunaan sistem secara berkelanjutan berarti pengguna menyetujui seluruh perubahan.
+
+12. KONTAK
+Untuk otorisasi sistem atau masalah keamanan, hubungi:
+[Administrator Sistem / Departemen Keamanan IT]

@@ -1,25 +1,20 @@
-import { ReceiptBannerLayout } from "../../layouts/receipt-banner-layout";
-import { ReceiptContentLayout } from "../../layouts/receipt-content-layout";
 import { ReceiptNavigationLayout } from "../../layouts/receipt-navigation-layout";
 import { useRef } from "react";
+import { Receipt } from "./receipt";
+import { useReceiptPdfDownload } from "../../hooks/use-receipt-pdf-download";
 
 export const ReceiptPage = () => {
   const receiptRef = useRef(null);
+  const downloadPDF = useReceiptPdfDownload();
 
   return (
-    <div className="font-times-new-roman">
-      <ReceiptNavigationLayout receiptRef={receiptRef} />
+    <div>
+      <ReceiptNavigationLayout
+        receiptRef={receiptRef}
+        onClick={() => downloadPDF(receiptRef)}
+      />
 
-      <div
-        ref={receiptRef}
-        className="w-w-pdf h-h-pdf my-4 mx-auto border border-[#D08700] text-[#111827] bg-[#ffffff]"
-      >
-        <ReceiptBannerLayout />
-
-        <main className="px-16">
-          <ReceiptContentLayout />
-        </main>
-      </div>
+      <Receipt ref={receiptRef} />
     </div>
   );
 };

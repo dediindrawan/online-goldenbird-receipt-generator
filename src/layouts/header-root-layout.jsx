@@ -1,11 +1,11 @@
 export const HeaderRootLayout = () => {
   return (
     <header className="mb-8">
-      <h1 className="text-3xl">
+      <h1 className="text-4xl font-semibold">
         Online <span className="text-yellow-600">Goldenbird</span> Receipt
         Generator
       </h1>
-      <h2 className="text-xl mt-12 mb-4">
+      <h2 className="text-2xl mt-12 mb-4">
         🧾 Create Professional Goldenbird Receipts
       </h2>
       <p>

@@ -11,7 +11,7 @@ export const TemplateMessageLayout = () => {
   return (
     <div className="mt-12">
       <section className="mb-8">
-        <h2 className="mb-4 text-xl">
+        <h2 className="mb-4 text-2xl">
           🚀 Additional Message Template. Use this template?
         </h2>
 
@@ -24,7 +24,7 @@ export const TemplateMessageLayout = () => {
       <article className="w-full text-right whitespace-pre-line border border-gray-300 rounded-md bg-gray-50">
         {/* Copy Button */}
         <Button
-          className="w-max text-xs sticky top-0"
+          className="w-max text-xs sticky top-0 border-none rounded-tl-none rounded-br-none bg-yellow-200"
           variant="tersier"
           onClick={() => copyButtonHandleClick(TemplateMessage)}
         >

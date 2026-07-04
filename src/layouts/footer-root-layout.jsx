@@ -13,8 +13,11 @@ export const FooterRootLayout = () => {
         </Link>
       </section>
       <section>
-        <Link to={"/"} className="text-blue-600 underline hover:no-underline">
-          Terms of Use
+        <Link
+          to={"/system-usage-policy"}
+          className="text-blue-600 underline hover:no-underline"
+        >
+          System Usage Policy
         </Link>
       </section>
     </footer>

@@ -16,7 +16,7 @@ const saveStorageValue = (key, value) => {
   localStorage.setItem(key, JSON.stringify(value));
 };
 
-export const useInputFiled = () => {
+export const useInputField = () => {
   const [customerName, setCustomerName] = useState(() =>
     getStorageValue("Saved_Customer_Name"),
   );

@@ -7,7 +7,7 @@ export const Label = ({
 }) => {
   const baseStyle = "w-max text-gray-600";
   const variants = {
-    primary: "text-gray-600",
+    primary: "text-yellow-600",
     danger: "text-pink-500",
     outline: "text-gray-600",
   };
