@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "title": "PENGGUNAAN SISTEM",
+    "heading": [
+      "Sistem ini disediakan untuk mendukung kegiatan operasional perusahaan. Setiap petugas wajib menggunakan sistem sesuai dengan fungsi dan ketentuan yang telah ditetapkan."
+    ],
+    "subheading": "Sistem ini hanya digunakan untuk kepentingan operasional perusahaan, meliputi:",
+    "list": [
+      "Input data pemesanan transportasi.",
+      "Verifikasi informasi tamu dan perjalanan.",
+      "Penerbitan dan pencetakan Receipt.",
+      "Persiapan dokumen yang akan dikirim kepada tamu."
+    ],
+    "footer": [
+      "Penggunaan sistem untuk kepentingan pribadi, percobaan yang tidak berkaitan dengan pekerjaan, atau aktivitas lain di luar operasional perusahaan tidak diperbolehkan.",
+      "Petugas juga dilarang membagikan tautan sistem kepada pihak yang tidak berwenang atau mengizinkan pihak luar menggunakan sistem untuk kepentingan perusahaan."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "PENYIMPANAN DATA",
+    "heading": [
+      "Sistem ini bukan merupakan media penyimpanan data pemesanan.",
+      "Data yang diinput hanya disimpan sementara pada Local Storage di browser yang digunakan dan hanya mempertahankan satu data pemesanan terakhir.",
+      "Setiap input baru akan otomatis menggantikan data sebelumnya.",
+      "Oleh karena itu, petugas wajib memastikan bahwa Receipt telah diperiksa, dicetak, diunduh, atau disimpan sebelum membuat input pemesanan berikutnya.",
+      "Data juga dapat hilang apabila cache browser dibersihkan, data browser dihapus, atau sistem diakses menggunakan perangkat maupun browser yang berbeda."
+    ],
+    "subheading": "",
+    "list": [],
+    "footer": []
+  },
+  {
+    "id": 3,
+    "title": "AKURASI DATA",
+    "heading": [
+      "Seluruh data yang dimasukkan ke dalam sistem harus akurat, lengkap, dan telah diverifikasi sebelum Receipt diterbitkan."
+    ],
+    "subheading": "Petugas bertanggung jawab atas:",
+    "list": [
+      "Ketepatan data yang diinput.",
+      "Kesesuaian informasi yang tercantum pada Receipt.",
+      "Kesalahan operasional yang timbul akibat data yang tidak benar atau belum diverifikasi."
+    ],
+    "footer": []
+  },
+  {
+    "id": 4,
+    "title": "STATUS RECEIPT",
+    "heading": [
+      "Receipt yang dihasilkan melalui sistem merupakan dokumen operasional resmi perusahaan.",
+      "Sebelum dikirim kepada tamu, petugas wajib memastikan seluruh informasi yang tercantum telah benar.",
+      "Apabila ditemukan kesalahan, Receipt harus diperbarui sesuai prosedur operasional perusahaan sebelum dikirim."
+    ],
+    "subheading": "",
+    "list": [],
+    "footer": []
+  },
+  {
+    "id": 5,
+    "title": "KERAHASIAAN INFORMASI",
+    "heading": [
+      "Seluruh data tamu, informasi perjalanan, detail pemesanan, dan dokumen yang diproses melalui sistem merupakan informasi internal yang bersifat rahasia."
+    ],
+    "subheading": "Petugas dilarang:",
+    "list": [
+      "Menyalin atau menyebarkan informasi kepada pihak yang tidak berwenang.",
+      "Menggunakan data tamu untuk kepentingan pribadi.",
+      "Membagikan dokumen perusahaan tanpa persetujuan yang sesuai."
+    ],
+    "footer": []
+  },
+  {
+    "id": 6,
+    "title": "KEAMANAN SISTEM",
+    "heading": ["Setiap petugas wajib menjaga keamanan, stabilitas, dan keandalan sistem dengan tidak melakukan tindakan yang dapat mengganggu fungsi maupun integritas sistem."],
+    "subheading": "Untuk menjaga keamanan dan stabilitas sistem, petugas dilarang:",
+    "list": [
+      "Mengubah atau memodifikasi sistem tanpa persetujuan.",
+      "Menggunakan script, bot, otomatisasi, atau perangkat lunak lain yang dapat memengaruhi cara kerja sistem.",
+      "Mencoba mengakses atau memanfaatkan bagian sistem yang tidak diperuntukkan bagi petugas.",
+      "Melakukan tindakan yang dapat mengganggu keamanan, integritas, atau ketersediaan sistem."
+    ],
+    "footer": []
+  },
+  {
+    "id": 7,
+    "title": "BATASAN SISTEM",
+    "heading": [
+      "Sistem ini disediakan sebagai alat bantu operasional untuk melakukan input data dan menghasilkan Receipt.",
+      "Sistem tidak menyimpan riwayat pemesanan, tidak melakukan pencadangan data secara otomatis, dan tidak menjamin ketersediaan data yang telah diinput setelah pengguna membuat input baru, menghapus data browser, atau berpindah perangkat.",
+      "Petugas bertanggung jawab untuk memastikan seluruh data telah diperiksa serta Receipt telah dicetak atau disimpan sebelum melanjutkan ke pemesanan berikutnya."
+    ],
+    "subheading": "",
+    "list": [],
+    "footer": []
+  },
+  {
+    "id": 8,
+    "title": "PELAPORAN MASALAH",
+    "heading": [
+      "Apabila ditemukan kesalahan sistem, ketidaksesuaian data, atau dugaan penyalahgunaan, petugas wajib segera melaporkannya kepada Administrator Sistem."
+    ],
+    "subheading": "",
+    "list": [],
+    "footer": []
+  },
+  {
+    "id": 9,
+    "title": "PELANGGARAN",
+    "heading": [
+      "Setiap pelanggaran terhadap kebijakan ini akan ditindaklanjuti sesuai dengan kebijakan perusahaan."
+    ],
+    "subheading": "Petugas bertanggung jawab atas setiap kerugian yang timbul akibat:",
+    "list": [
+      "Kelalaian dalam penggunaan sistem.",
+      "Kesalahan input data.",
+      "Penyalahgunaan sistem.",
+      "Pelanggaran terhadap ketentuan yang berlaku."
+    ],
+    "footer": [
+      "Apabila diperlukan, perusahaan dapat mengambil tindakan administratif maupun tindakan hukum sesuai dengan peraturan yang berlaku."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "PERUBAHAN KEBIJAKAN",
+    "heading": [
+      "Kebijakan ini dapat diperbarui sewaktu-waktu sesuai kebutuhan operasional maupun pengembangan sistem.",
+      "Penggunaan sistem secara berkelanjutan dianggap sebagai persetujuan terhadap versi kebijakan yang berlaku."
+    ],
+    "subheading": "Petugas bertanggung jawab atas setiap kerugian yang timbul akibat:",
+    "list": [
+      "Kelalaian dalam penggunaan sistem.",
+      "Kesalahan input data.",
+      "Penyalahgunaan sistem.",
+      "Pelanggaran terhadap ketentuan yang berlaku."
+    ],
+    "footer": [
+      "Apabila diperlukan, perusahaan dapat mengambil tindakan administratif maupun tindakan hukum sesuai dengan peraturan yang berlaku."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "KONTAK",
+    "heading": [
+      "Kebijakan ini dapat diperbarui sewaktu-waktu sesuai kebutuhan operasional maupun pengembangan sistem.",
+      "Penggunaan sistem secara berkelanjutan dianggap sebagai persetujuan terhadap versi kebijakan yang berlaku."
+    ],
+    "subheading": "Untuk pertanyaan, pelaporan masalah, atau kendala terkait penggunaan sistem, silakan menghubungi:",
+    "list": ["Administrator Sistem"],
+    "footer": []
+  }
+]

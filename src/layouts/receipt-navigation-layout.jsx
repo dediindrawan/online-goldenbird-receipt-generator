@@ -1,22 +1,39 @@
 import { Button } from "../components/button";
-import { useNavigate } from "react-router-dom";
-import { useTemplateMessage } from "../hooks/use-template-message";
-import TemplateMessage from "../utils/template-message.txt?raw";
+import { Link } from "react-router-dom";
+// import { useTemplateMessage } from "../hooks/use-template-message";
+// import TemplateMessage from "../utils/template-message.txt?raw";
+import { ArrowLeft } from "lucide-react";
 
 export const ReceiptNavigationLayout = ({ onClick }) => {
-  const navigate = useNavigate();
-  const { copyTemplate, setCopyTemplate, copyButtonHandleClick } =
-    useTemplateMessage();
+  // const { copyTemplate, setCopyTemplate, copyButtonHandleClick } =
+  //   useTemplateMessage();
 
   return (
-    <nav className="max-w-4xl mt-4 mx-auto p-8 text-center font-poppins border border-gray-300 rounded-md sticky top-0 bg-gray-50">
-      <h1 className="mb-4 text-xl tracking-widest">🧾 Receipt Preview</h1>
-      <ul className="flex justify-center gap-4">
+    <nav className="max-w-4xl p-4 mx-auto rounded sticky top-0 backdrop-blur-xl">
+      <ul className="flex justify-between items-center">
         <li>
-          <Button onClick={() => navigate(-1)} className="max-w-52 min-w-52">
-            Back or Edit Your Receipt
+          <Link
+            to={"/"}
+            className="w-max flex items-center gap-1 text-blue-600 transition-all duration-300 ease-in-out hover:gap-2"
+          >
+            <ArrowLeft size={14} /> Edit Receipt or Copy Template
+          </Link>
+        </li>
+        <li>
+          <Button
+            // variant="danger"
+            className="max-w-w-52 min-w-52"
+            onClick={onClick}
+          >
+            Download Receipt
           </Button>
         </li>
+      </ul>
+
+      <h1 className="mt-8 text-center text-xl tracking-widest">
+        🧾 Receipt Preview
+      </h1>
+      {/* <ul className="p-4 flex justify-between gap-4 rounded-md bg-gray-50">
         <li>
           <Button
             variant="danger"
@@ -41,7 +58,7 @@ export const ReceiptNavigationLayout = ({ onClick }) => {
             )}
           </Button>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 };

@@ -16,8 +16,9 @@ export const TemplateMessageLayout = () => {
         </h2>
 
         <p>
-          For a more professional touch, copy and customize the message template
-          below before sending it to your guests.
+          For a more professional touch, attach the receipt along with the cover
+          letter template below before sending it to your guests. Copy the
+          template and customize it as needed.
         </p>
       </section>
 

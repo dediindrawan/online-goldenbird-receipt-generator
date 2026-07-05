@@ -6,7 +6,7 @@ export const Receipt = ({ ref, ...props }) => {
     <div
       ref={ref}
       {...props}
-      className="w-w-pdf h-h-pdf my-4 mx-auto font-times-new-roman text-[#111827] bg-[#ffffff]"
+      className="w-w-pdf h-h-pdf mt-4 mx-auto font-times-new-roman text-[#111827] bg-[#ffffff]"
     >
       <ReceiptBannerLayout />
 
