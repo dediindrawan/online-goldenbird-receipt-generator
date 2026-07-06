@@ -74,7 +74,9 @@
   {
     "id": 6,
     "title": "KEAMANAN SISTEM",
-    "heading": ["Setiap petugas wajib menjaga keamanan, stabilitas, dan keandalan sistem dengan tidak melakukan tindakan yang dapat mengganggu fungsi maupun integritas sistem."],
+    "heading": [
+      "Setiap petugas wajib menjaga keamanan, stabilitas, dan keandalan sistem dengan tidak melakukan tindakan yang dapat mengganggu fungsi maupun integritas sistem."
+    ],
     "subheading": "Untuk menjaga keamanan dan stabilitas sistem, petugas dilarang:",
     "list": [
       "Mengubah atau memodifikasi sistem tanpa persetujuan.",
@@ -130,24 +132,14 @@
       "Kebijakan ini dapat diperbarui sewaktu-waktu sesuai kebutuhan operasional maupun pengembangan sistem.",
       "Penggunaan sistem secara berkelanjutan dianggap sebagai persetujuan terhadap versi kebijakan yang berlaku."
     ],
-    "subheading": "Petugas bertanggung jawab atas setiap kerugian yang timbul akibat:",
-    "list": [
-      "Kelalaian dalam penggunaan sistem.",
-      "Kesalahan input data.",
-      "Penyalahgunaan sistem.",
-      "Pelanggaran terhadap ketentuan yang berlaku."
-    ],
-    "footer": [
-      "Apabila diperlukan, perusahaan dapat mengambil tindakan administratif maupun tindakan hukum sesuai dengan peraturan yang berlaku."
-    ]
+    "subheading": "",
+    "list": [],
+    "footer": []
   },
   {
     "id": 10,
     "title": "KONTAK",
-    "heading": [
-      "Kebijakan ini dapat diperbarui sewaktu-waktu sesuai kebutuhan operasional maupun pengembangan sistem.",
-      "Penggunaan sistem secara berkelanjutan dianggap sebagai persetujuan terhadap versi kebijakan yang berlaku."
-    ],
+    "heading": [],
     "subheading": "Untuk pertanyaan, pelaporan masalah, atau kendala terkait penggunaan sistem, silakan menghubungi:",
     "list": ["Administrator Sistem"],
     "footer": []

@@ -19,14 +19,14 @@ export const RootPage = () => {
 
       <main>
         <InputFormGroup />
-        <span className="w-full mt-12 flex justify-between">
+        <span className="w-full mt-12 flex flex-col-reverse justify-start gap-8 sm:flex-row sm:justify-between sm:gap-0">
           <Button className="max-w-52" onClick={() => downloadPDF(receiptRef)}>
             Download Receipt
           </Button>
 
           <Link
             to={"/receipt-preview"}
-            className="flex justify-end items-center gap-1 text-blue-600 transition-all duration-300 ease-in-out hover:gap-2"
+            className="flex items-center gap-1 text-blue-600 transition-all duration-300 ease-in-out hover:gap-2"
           >
             Receipt Preview <ArrowRight size={14} />
           </Link>

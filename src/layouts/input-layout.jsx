@@ -11,7 +11,7 @@ export const InputLayout = ({
   errorMessage,
   ...props
 }) => {
-  const baseStyle = "w-1/4 flex flex-col grow gap-1";
+  const baseStyle = "w-full flex flex-col grow gap-1 sm:w-1/4";
 
   return (
     <section className={baseStyle}>

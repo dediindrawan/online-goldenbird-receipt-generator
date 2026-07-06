@@ -39,7 +39,7 @@ export const SystemUsagePolicyContentLayout = () => {
             <p className="mt-1">{item.subheading}</p>
             <p>
               {item.list && item.list.length > 0 && (
-                <ol className="list-disc list-inside mt-1">
+                <ol className="list-disc ml-4 mt-1">
                   {item.list.map((subItem, subIndex) => (
                     <li key={subIndex}>{subItem}</li>
                   ))}

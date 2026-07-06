@@ -47,7 +47,7 @@ export const TemplateMessageLayout = () => {
         </Button>
 
         {/* Raw Template Message */}
-        <p className="px-10 pb-8 text-left">{TemplateMessage}</p>
+        <p className="px-4 pb-8 text-left sm:px-10">{TemplateMessage}</p>
       </article>
     </div>
   );

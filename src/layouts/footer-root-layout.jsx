@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const FooterRootLayout = () => {
   return (
-    <footer className="mt-12 mb-4 text-xs flex justify-between">
+    <footer className="mt-12 mb-4 text-xs flex flex-col-reverse justify-between gap-8 sm:flex-row sm:gap-0">
       <section>
         ©{new Date().getFullYear()} | Online Goldenbird Receipt Generator. All
         rights reserved.
