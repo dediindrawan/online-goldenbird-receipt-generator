@@ -8,13 +8,21 @@ export const ReceiptPage = () => {
   const downloadPDF = useReceiptPdfDownload();
 
   return (
-    <div className="min-h-screen py-4 bg-gray-50">
+    <div className="min-h-screen p-4 bg-gray-50">
       <ReceiptNavigationLayout
         receiptRef={receiptRef}
         onClick={() => downloadPDF(receiptRef)}
       />
 
-      <Receipt ref={receiptRef} />
+      <Receipt
+        ref={receiptRef}
+        style={{
+          position: "fixed",
+          left: "-10000px",
+          top: 0,
+        }}
+      />
+      <Receipt />
     </div>
   );
 };

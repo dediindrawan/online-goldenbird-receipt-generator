@@ -9,7 +9,7 @@ export const SystemUsagePolicyPage = () => {
         to={"/"}
         className="mt-6 inline-block text-xs underline text-blue-600 hover:no-underline"
       >
-        Saya sudah membaca dan mengerti, kembali ke halaman utama
+        Kembali ke halaman utama
       </Link>
     </div>
   );

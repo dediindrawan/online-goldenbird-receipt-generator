@@ -11,8 +11,8 @@ export const TemplateMessageLayout = () => {
   return (
     <div className="mt-12">
       <section className="mb-8">
-        <h2 className="mb-4 text-2xl">
-          🚀 Additional Message Template. Use this template?
+        <h2 className="mb-4 text-lg sm:text-2xl">
+          🚀 Additional Cover Letter Template. Use this template?
         </h2>
 
         <p>
@@ -47,7 +47,7 @@ export const TemplateMessageLayout = () => {
         </Button>
 
         {/* Raw Template Message */}
-        <p className="px-4 pb-8 text-left sm:px-10">{TemplateMessage}</p>
+        <p className="px-4 pb-4 -mt-4 text-left">{TemplateMessage}</p>
       </article>
     </div>
   );

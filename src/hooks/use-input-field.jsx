@@ -14,6 +14,7 @@ const getStorageValue = (key, fallback = "") => {
 
 const saveStorageValue = (key, value) => {
   localStorage.setItem(key, JSON.stringify(value));
+  window.dispatchEvent(new Event("local-storage"));
 };
 
 export const useInputField = () => {

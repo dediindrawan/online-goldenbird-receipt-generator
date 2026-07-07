@@ -25,6 +25,7 @@ export const ReceiptContentLayout = () => {
       />
       <br /> <br />
       <ReceiptContentFeature
+        className="uppercase"
         contentTitle={"Booking No."}
         contentDescription={displayBookingCode}
       />

@@ -1,6 +1,6 @@
 import { Document, Page, Text, View } from "@react-pdf/renderer";
 
-export const ReceiptPDFDownload = ({ receipt }) => (
+export const ReceiptPDFDownloadFeature = ({ receipt }) => (
   <Document>
     <Page size="A4">
       <View>

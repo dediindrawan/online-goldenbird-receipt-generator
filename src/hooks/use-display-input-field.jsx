@@ -52,9 +52,11 @@ export const useDisplayInputField = () => {
     loadContent();
 
     window.addEventListener("storage", loadContent);
+    window.addEventListener("local-storage", loadContent);
 
     return () => {
       window.removeEventListener("storage", loadContent);
+      window.removeEventListener("local-storage", loadContent);
     };
   }, []);
 

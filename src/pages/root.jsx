@@ -2,12 +2,12 @@ import { InputFormGroup } from "./form-page";
 import { TemplateMessageLayout } from "../layouts/template-message-layout";
 import { HeaderRootLayout } from "../layouts/header-root-layout";
 import { FooterRootLayout } from "../layouts/footer-root-layout";
-import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
 import { Button } from "../components/button";
 import { useReceiptPdfDownload } from "../hooks/use-receipt-pdf-download";
 import { Receipt } from "./receipt-page/receipt";
 import { useRef } from "react";
+import { Download } from "lucide-react";
+import { ExampleReceiptLayout } from "../layouts/example-receipt-layout";
 
 export const RootPage = () => {
   const receiptRef = useRef(null);
@@ -18,30 +18,21 @@ export const RootPage = () => {
       <HeaderRootLayout />
 
       <main>
-        <InputFormGroup />
-        <span className="w-full mt-12 flex flex-col-reverse justify-start gap-8 sm:flex-row sm:justify-between sm:gap-0">
-          <Button className="max-w-52" onClick={() => downloadPDF(receiptRef)}>
-            Download Receipt
-          </Button>
+        <div className="w-full flex flex-col items-center gap-5 sm:flex-row sm:items-stretch">
+          <InputFormGroup />
+          <ExampleReceiptLayout />
+        </div>
 
-          <Link
-            to={"/receipt-preview"}
-            className="flex items-center gap-1 text-blue-600 transition-all duration-300 ease-in-out hover:gap-2"
+        <span className="w-full mt-12 flex flex-col-reverse justify-start gap-8 sm:flex-row sm:justify-between sm:gap-0">
+          <Button
+            className="w-full flex justify-center items-center gap-2 sm:max-w-52"
+            onClick={() => downloadPDF(receiptRef)}
           >
-            Receipt Preview <ArrowRight size={14} />
-          </Link>
+            <Download size={16} className="-mt-1" /> Download Receipt
+          </Button>
         </span>
 
-        <Receipt
-          ref={receiptRef}
-          style={{
-            position: "fixed",
-            left: "-10000px",
-            top: 0,
-            backgroundColor: "#ffffff",
-            fontFamily: "Times New Roman",
-          }}
-        />
+        <Receipt className="" ref={receiptRef} className="fixed -left-full" />
 
         <TemplateMessageLayout />
       </main>

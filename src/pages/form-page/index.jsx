@@ -20,12 +20,12 @@ export const InputFormGroup = () => {
 
   return (
     <form>
-      <div className="mb-4 w-full flex flex-col flex-wrap grow gap-4 sm:flex-row">
+      <div className="w-full mb-4 flex flex-wrap grow gap-4">
         <InputLayout
           className="capitalize"
           id="customer-name-input"
           labelText="Customer Name:"
-          placeholder="EG: Mr. John Doe"
+          placeholder="Eg: Mr. John Doe"
           value={customerName}
           onFocus={(e) => {
             e.target.select();
@@ -35,8 +35,8 @@ export const InputFormGroup = () => {
         <InputLayout
           className="uppercase"
           id="booking-code-input"
-          labelText="Booking Code or Order Number:"
-          placeholder="EG: HO12345678"
+          labelText="Booking Number:"
+          placeholder="Eg: HO12345678"
           value={bookingCode}
           onFocus={(e) => {
             e.target.select();
@@ -45,7 +45,7 @@ export const InputFormGroup = () => {
         />
         <InputLayout
           id="car-usage-input"
-          labelText="Periode of Car Usage:"
+          labelText="Periode Date:"
           type="date"
           value={periodeUsage}
           onFocus={(e) => {
@@ -56,8 +56,8 @@ export const InputFormGroup = () => {
         <InputLayout
           className="capitalize"
           id="idr-amount-word-input"
-          labelText="IDR Amount in Words:"
-          placeholder="EG: Five Hundred Thousand"
+          labelText="Amount in Words:"
+          placeholder="Eg: Five Hundred Thousand"
           value={amountWords}
           onFocus={(e) => {
             e.target.select();
@@ -66,9 +66,9 @@ export const InputFormGroup = () => {
         />
         <InputLayout
           id="idr-amount-number-input"
-          labelText="IDR Amount in Number:"
+          labelText="Amount in Number:"
           type="text"
-          placeholder="EG: 500000"
+          placeholder="Eg: 500000"
           value={`IDR. ${amountNumber}`}
           onFocus={(e) => {
             e.target.select();
@@ -79,7 +79,7 @@ export const InputFormGroup = () => {
       <TextareaLayout
         id="note-explanation-input"
         labelText="Note Explanation:"
-        placeholder="EG: Goldenbird car payment for BYD Denza D9 ..."
+        placeholder="Eg: Goldenbird car payment for BYD Denza D9 ..."
         value={noteExplanation}
         onFocus={(e) => {
           e.target.select();

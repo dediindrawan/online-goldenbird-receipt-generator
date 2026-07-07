@@ -3,7 +3,7 @@ import SystemUsageContent from "../data/system-usage-policy-data.json";
 export const SystemUsagePolicyContentLayout = () => {
   return (
     <article>
-      <h1 className="text-4xl font-semibold mb-2">
+      <h1 className="text-2xl font-semibold mb-2 sm:text-4xl">
         Kebijakan Penggunaan Sistem
       </h1>
 
