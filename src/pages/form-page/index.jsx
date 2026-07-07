@@ -33,7 +33,6 @@ export const InputFormGroup = () => {
           onChange={(e) => inputCustomerNameHandleChange(e)}
         />
         <InputLayout
-          className="uppercase"
           id="booking-code-input"
           labelText="Booking Number:"
           placeholder="Eg: HO12345678"
