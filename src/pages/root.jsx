@@ -23,7 +23,7 @@ export const RootPage = () => {
           <ExampleReceiptLayout />
         </div>
 
-        <span className="w-full mt-12 flex flex-col-reverse justify-start gap-8 sm:flex-row sm:justify-between sm:gap-0">
+        <span className="w-full mt-6 flex flex-col-reverse justify-start gap-8 sm:flex-row sm:justify-between sm:gap-0">
           <Button
             className="w-full flex justify-center items-center gap-2 sm:max-w-52"
             onClick={() => downloadPDF(receiptRef)}
