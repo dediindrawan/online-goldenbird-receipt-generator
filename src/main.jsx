@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./style/index.css";
 
 import { RootPage } from "./pages/root.jsx";
-import { ReceiptPage } from "./pages/receipt-page/index.jsx";
+// import { ReceiptPage } from "./pages/receipt-page/index.jsx";
 import { SystemUsagePolicyPage } from "./pages/system-usage-policy-page/index.jsx";
 import { LoginPage } from "./pages/login/index.jsx";
 import { AuthCallbackPage } from "./pages/auth-callback/index.jsx";
