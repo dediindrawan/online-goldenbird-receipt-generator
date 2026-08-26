@@ -22,7 +22,7 @@ export const InputFormGroup = () => {
     <form>
       <div className="w-full mb-4 flex flex-wrap grow gap-4">
         <InputLayout
-          className="capitalize"
+          className="capitalize w-full"
           id="customer-name-input"
           labelText="Customer Name:"
           placeholder="Eg: Mr. John Doe"
@@ -33,6 +33,7 @@ export const InputFormGroup = () => {
           onChange={(e) => inputCustomerNameHandleChange(e)}
         />
         <InputLayout
+          className="w-full"
           id="booking-code-input"
           labelText="Booking Number:"
           placeholder="Eg: HO12345678"
@@ -43,6 +44,7 @@ export const InputFormGroup = () => {
           onChange={(e) => inputBookingCodeHandleChange(e)}
         />
         <InputLayout
+          className="w-full"
           id="car-usage-input"
           labelText="Periode Date:"
           type="date"
@@ -53,7 +55,7 @@ export const InputFormGroup = () => {
           onChange={(e) => inputPeriodeUsageHandleChange(e)}
         />
         <InputLayout
-          className="capitalize"
+          className="capitalize w-full"
           id="idr-amount-word-input"
           labelText="Amount in Words:"
           placeholder="Eg: Five Hundred Thousand"
@@ -64,6 +66,7 @@ export const InputFormGroup = () => {
           onChange={(e) => inputAmountWordsHandleChange(e)}
         />
         <InputLayout
+          className="w-full"
           id="idr-amount-number-input"
           labelText="Amount in Number:"
           type="text"

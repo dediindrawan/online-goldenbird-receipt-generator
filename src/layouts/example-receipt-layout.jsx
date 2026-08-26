@@ -1,4 +1,4 @@
-import ExampleReceipt from "../assets/example-gb-receipt.jpg";
+import ExampleReceipt from "../assets/example-gb-receipt.jpeg";
 
 export const ExampleReceiptLayout = () => {
   return (

@@ -8,6 +8,7 @@ import { Receipt } from "./receipt-page/receipt";
 import { useRef } from "react";
 import { Download } from "lucide-react";
 import { ExampleReceiptLayout } from "../layouts/example-receipt-layout";
+import { LogoutButton } from "../features/logout-button";
 
 export const RootPage = () => {
   const receiptRef = useRef(null);
@@ -23,14 +24,16 @@ export const RootPage = () => {
           <ExampleReceiptLayout />
         </div>
 
-        <span className="w-full mt-6 flex flex-col-reverse justify-start gap-8 sm:flex-row sm:justify-between sm:gap-0">
+        <div className="w-full mt-6 flex flex-col gap-6 sm:flex-row sm:justify-between sm:gap-0">
           <Button
             className="w-full flex justify-center items-center gap-2 sm:max-w-52"
             onClick={() => downloadPDF(receiptRef)}
           >
             <Download size={16} className="-mt-1" /> Download Receipt
           </Button>
-        </span>
+
+          <LogoutButton />
+        </div>
 
         <Receipt className="" ref={receiptRef} className="fixed -left-full" />
 
