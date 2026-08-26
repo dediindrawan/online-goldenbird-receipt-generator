@@ -19,6 +19,7 @@ export const Input = ({
       id={id}
       type={type}
       placeholder={placeholder}
+      required
       className={`${baseStyle} ${variants[variant] || variants.primary} ${className || ""}`}
       {...props}
     />

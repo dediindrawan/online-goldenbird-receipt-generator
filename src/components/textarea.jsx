@@ -17,6 +17,7 @@ export const TextArea = ({
     <textarea
       id={id}
       placeholder={placeholder}
+      required
       className={`${baseStyle} ${variants[variant] || variants.primary} ${className || ""}`}
       {...props}
     ></textarea>
